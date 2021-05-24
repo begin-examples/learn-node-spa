@@ -1,5 +1,5 @@
 @app
-my-spa
+node-spa
 
 @static
 folder dist
