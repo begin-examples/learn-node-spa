@@ -5,6 +5,7 @@ const stackInfoFile = fs.readFileSync(0, 'utf-8')
 const stackInfo = JSON.parse(stackInfoFile)
 
 const outputs = stackInfo.Stacks[0].Outputs
+console.log(outputs)
 
 
 let url = outputs.filter(out => out.OutputKey === 'API')[0].OutputValue
