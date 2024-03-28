@@ -8,7 +8,7 @@
     "build": "parcel build public/index.html"
   },
   "devDependencies": {
-    "@architect/sandbox": "^5.0.0",
+    "@architect/sandbox": "^6.0.4",
     "parcel-bundler": "^1.12.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
